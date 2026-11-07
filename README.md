@@ -9,7 +9,7 @@
 
 LLM이 이메일·웹 문서·메신저 대화를 대신 읽고 요약해 주는 서비스가 늘면서, 문서 안에 몰래 심어 둔 지시문으로 모델을 조종하는 간접 프롬프트 인젝션(Indirect Prompt Injection) 이 가장 중요한 LLM 보안 위협 중 하나가 되었습니다.
 
-하지만 기존의 간접 인젝션 벤치마크(BIPIA, InjecAgent, AgentDojo 등)는 대부분 영어로 되어 있고, 한국어 연구는 주로 직접 인젝션,탈옥 탐지에 집중되어 있습니다. 또한 한글은 자모를 풀어 쓰거나(`ㅁㅜ시해`), 음절마다 띄어 쓰는(`무 시 해`)등 한국어에만 있는 우회 방식이 존재합니다.
+하지만 기존의 간접 인젝션 벤치마크(BIPIA, InjecAgent, AgentDojo 등)는 대부분 영어로 되어 있고, 한국어 연구는 주로 직접 인젝션•탈옥 탐지에 집중되어 있습니다. 또한 한글은 자모를 풀어 쓰거나(`ㅁㅜ시해`), 음절마다 띄어 쓰는(`무 시 해`)등 한국어에만 있는 우회 방식이 존재합니다.
 
 KIPI-Bench는 이 빈틈을 다룹니다.
 
@@ -129,7 +129,7 @@ python -m kipi.report results/qwen2.5-7b__*.jsonl --by defense,obfuscation --csv
 ```bibtex
 @misc{kipibench2026,
   title  = {KIPI-Bench: A Benchmark for Korean Indirect Prompt Injection},
-  author = {TODO},
+  author = {HUIMOON JEON},
   year   = {2026},
   url    = {https://github.com/hmoxn/ko-ipi-bench}
 }
