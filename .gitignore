@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 자동 생성 데이터 (python -m kipi.build 로 언제든 재생성 가능)
+data/build/
+
+# 비밀 정보
+.env
+*.key
+
+# 에디터 / OS
+.vscode/
+.idea/
+.DS_Store
